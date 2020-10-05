@@ -9,7 +9,9 @@ class Story {
 
 
   //TODO: Step 4 - Create a Constructor for this class to be able to initialise the properties created in step 3.
-  Story(this._storyTitle, this._choice1, this._choice2);
+  Story({storyTitle: String, choice1: String, choice2: String});
+
+
 
 
 }
