@@ -8,22 +8,19 @@ class Story {
   String _choice2;
 
   //TODO: Step 4 - Create a Constructor for this class to be able to initialise the properties created in step 3.
-  Story({storyTitle: String, choice1: String, choice2: String});
 
-
-  // init getters
-  String getTitle(){
-    return _storyTitle;
+  Story({String storyTitle, String choice1, String choice2}) {
+    this._storyTitle = storyTitle;
+    this._choice1 = choice1;
+    this._choice2 = choice2;
   }
 
-  String getChoice1(){
-    return _choice1;
-  }
+  //Getters
+  String get choice2 => _choice2;
 
-  String getChoice2(){
-    return _choice2;
-  }
+  String get choice1 => _choice1;
 
+  String get storyTitle => _storyTitle;
 
 }
 
