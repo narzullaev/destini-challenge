@@ -5,6 +5,9 @@ import 'package:destini_challenge_starting/story.dart';
 class StoryBrain {
 //TODO: Step 7 - Uncomment the lines below to include storyData as a private property in StoryBrain. Hint: You might need to change something in story.dart to make this work.
 
+
+  int storyNumber = 0;
+
   List<Story> _storyData = [
     Story(
         storyTitle:
